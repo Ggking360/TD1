@@ -1,0 +1,158 @@
+/*Je suis a TD4 Fin Exo10*/
+
+blockquote,cite{
+display: flex;
+margin-top: auto;
+}
+h3{
+font-style: italic;
+color: blue;
+border: 1px solid;
+border-color: #CCCCCC;
+
+}
+h2{
+padding: 10px;
+}
+p{
+margin-top: 30px;
+}
+p.gauche{
+  clear: left;
+}
+body{
+background-color: #838892;
+width: 600px;
+margin : auto;
+
+}
+h2,h3{
+text-align: center;
+line-height:150%;
+text-indent:5px;
+font-family: "myfont", "Arial", "sans-serif";
+
+
+
+}
+
+nav{
+align-items: stretch;
+display: flex;
+background-color: #FF00FF;
+/*width: 75%;*/
+/*height: 200px;*/
+margin:auto;
+text-align: center;
+background-color: #FF00FF;
+flex-direction: row;
+}
+
+nav>div{
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;/*inline*/
+  /*flex-direction: column;*/
+background-color: #5BBDBF;
+top: 100px;
+position: relative;
+width:200px;
+}
+.submenu{
+  display:none;/*inline*/
+
+}
+nav>div:hover>.submenu{
+position: absolute;/*absolute*/
+display:inline;/*inline*/
+height: auto;
+top: 23px;
+background-color: #aca;
+width: 100%;
+}
+
+nav>div>a{
+background-color: #c0d5c2;
+padding-right:10px;
+padding-left: 10px;
+border: 2px solid;
+}
+@font-face {
+    font-family: myfont;
+    src: url(path/to/font/font.otf);
+}
+.pair{
+background-color: #5BBDBF;
+
+}
+.impair{
+background-color:#FF5850 ;
+
+}
+
+img.beware{
+height: 300px;
+float: right;
+margin-left: 10px;
+}
+img.Jeune{
+  float: left;
+  height: 150px;
+  margin-right: 10px;
+
+}
+
+img.Social{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px
+
+}
+img.SocialB{
+  position: fixed;
+  right: 0px;
+  bottom: 35px;
+  padding: 10px
+
+}
+
+
+.SKILL{
+color: red;
+font-style: italic;
+
+
+}
+thead{
+background-color: #00AAFF;
+
+}
+th>span.SKILL{
+  color: #640051;
+  padding: 0px 5px;
+}
+a{
+
+  text-decoration: none;
+
+
+}
+
+a:visited{
+
+
+  color: #0088FF;
+}
+
+a:hover{
+color: orange;
+
+
+}
+td.centrer{
+text-align: center;
+}
+
+tbody tr:nth-child(2n+0){background-color: grey}
+tbody tr:nth-child(2n-1){background-color: white}
